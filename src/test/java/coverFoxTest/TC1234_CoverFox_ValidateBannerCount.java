@@ -106,6 +106,7 @@ public class TC1234_CoverFox_ValidateBannerCount extends A_Base
 	  //Assert.fail();//giving this for taking screenshot on failed TC - Listener Class
       Reporter.log("saurabh has made changes in code", true);
       Reporter.log("Snehal Made Chnages Again", true);
+      Reporter.log("saurabh created new branch 2", false);
   }
   
   	// --> 3]Logout from Application - @AfterMethod
