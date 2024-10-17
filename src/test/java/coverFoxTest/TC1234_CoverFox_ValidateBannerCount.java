@@ -6,6 +6,7 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 import org.apache.poi.EncryptedDocumentException;
 import org.testng.Assert;
+import org.testng.Reporter;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
@@ -20,7 +21,7 @@ import coverFoxPOM.D_CoverFoxAddressDetailsPage;
 import coverFoxPOM.E_CoverFoxResultPage;
 
 public class TC1234_CoverFox_ValidateBannerCount extends A_Base
-		/*It’s mandatory to extend the Base class in the Test class because we need access to the driver.
+		/*Itï¿½s mandatory to extend the Base class in the Test class because we need access to the driver.
  		This ensures that all test classes can utilize the same instance of the driver for browser interactions.*/
 {
 	/* 1]Open Browser/Open An Application - @BeforeClass
@@ -103,6 +104,7 @@ public class TC1234_CoverFox_ValidateBannerCount extends A_Base
 	  //Assert.fail();
 	  Assert.assertEquals(textCount, bannerCount,"text count not matching with banner count, TC Failed");
 	  //Assert.fail();//giving this for taking screenshot on failed TC - Listener Class
+Reporter.log("saurabh has made changes in code", true);
   }
   
   	// --> 3]Logout from Application - @AfterMethod
