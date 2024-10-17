@@ -105,7 +105,7 @@ public class TC1234_CoverFox_ValidateBannerCount extends A_Base
 	  Assert.assertEquals(textCount, bannerCount,"text count not matching with banner count, TC Failed");
 	  //Assert.fail();//giving this for taking screenshot on failed TC - Listener Class
       Reporter.log("saurabh has made changes in code", true);
-      Reporter.log("Snehal Made Chnages", true);
+      Reporter.log("Snehal Made Chnages Again", true);
   }
   
   	// --> 3]Logout from Application - @AfterMethod
